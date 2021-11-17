@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/index.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/dt-1.11.3/datatables.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Inventario</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="cont-menu">
-        <nav>
-          <a href="Inicio.php"><i class="fas fa-home"></i> Inicio</a>
-          <a href="Inventario.php"><i class="fas fa-box"></i> Inventario</a>
-          <a href="Finanzas.php"><i class="far fa-chart-bar"></i> Finanzas</a>
-        </nav>
-      </div>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="Finanzas.php">Ventas</a></li>
+            <li><a href="Inventario.php">Inventario</a></li>
+            <li><a href="Inicio.php">Inicio</a></li>
+        </ul>
+    </nav>
+    <div>
+        
     </div>
-  </body>
-  <script src="https://kit.fontawesome.com/1b83b893b8.js" crossorigin="anonymous"></script>
+</body>
+<footer>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/dt-1.11.3/datatables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</footer>
 </html>
