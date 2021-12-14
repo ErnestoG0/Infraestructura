@@ -200,7 +200,7 @@
 								Nuevo Cliente 
 							</div>
 							<div class="full-width panel-content"> 
-								<!-- llene la etiqueta form, en caso de problema borrarla :v -->
+								<!-- llene la etiqueta form, en caso de problema borrarla :v att:tortuga-->
 								<form action="client.php" name="" method="POST">
 									<div class="mdl-grid">
 										<div class="mdl-cell mdl-cell--12-col">
@@ -208,7 +208,7 @@
 									    </div>
 											<div class="mdl-cell mdl-cell--12-col">
 												<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-													<input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="DNIClient">
+													<input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="RFCClient">
 													<label class="mdl-textfield__label" for="DNIClient">RFC</label>
 													<span class="mdl-textfield__error">RFC Invalido</span>
 												</div>
