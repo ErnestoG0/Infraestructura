@@ -361,29 +361,3 @@
 	</section>
 </body>
 </html>
-
-<php?
-	$servidor ="localhost";
-	$nombreusuario = "root";
-	$db = "inventario";
-	//
-	
-	$conexion = new mysqli($servidor, $nombreusuario, $db);
-
-	$RFCClient = $_POST["RFCClient"];
-	$NombreCliente = $_POST["NameClient"];
-	$Apellido = $_POST["LastNameClient"];
-	$Direccion1 = $_POST["addressClient1"];
-	$Direccion2 = $_POST["addressClient2"];
-	$Telefono = $_POST["phoneClient"];
-	$Correo = $_POST["emailClient"];
-	if($conexion -> connect_error){
-		die("conexion fallida" . $conexion->connect_error)
-	}
-	if(isset($_POST["RFCClient"])){
-		$RFCClient = $_POST['RFCClient'];
-		
-		$sql = "INSERT INTO clientes(RFC, Nombre, Apellido, Direccion1, Direccion2, Telefono, Correo)
-				VALUES ($RFCClient, $NombreCliente, $Apellido, $Direccion1, $Direccion2, $Telefono, $Correo)"
-	}
-?>
